@@ -21,19 +21,19 @@ O projeto faz parte de um estudo de desenvolvimento backend, abordando conceitos
 ## 📂 Estrutura do Projeto
 
 dslist-backend/
-├── src/
-│ ├── main/
+├── ***src**/
+│ ├── ***main***/
 │ │ ├── java/com/devteusxly/dslist/
-│ │ │ ├── controllers/ # Controladores REST
-│ │ │ ├── dto/ # Data Transfer Objects
-│ │ │ ├── entities/ # Entidades do banco de dados
-│ │ │ ├── repositories/ # Repositórios JPA
-│ │ │ ├── services/ # Regras de negócio
-│ │ │ └── DslistApplication.java
+│ │ │ ├── controllers/ # Controladores REST: recebem e tratam as requisições HTTP
+│ │ │ ├── dto/ # Data Transfer Objects: classes para transportar dados
+│ │ │ ├── entities/ # Entidades: representação das tabelas do banco de dados
+│ │ │ ├── repositories/ # Repositórios JPA: responsáveis pela comunicação com o banco
+│ │ │ ├── services/ # Camada de serviço: implementa as regras de negócio
+│ │ │ └── DslistApplication.java # Classe principal para iniciar o projeto Spring Boot
 │ │ └── resources/
-│ │ ├── application.properties
-│ │ └── data.sql
-└── pom.xml
+│ │ ├── application.properties # Configurações do Spring Boot e banco de dados
+│ │ └── data.sql # Script SQL para popular o banco de dados inicial
+└── pom.xml # Arquivo de configuração do Maven e dependências
 
 ## Trechos de código
 
@@ -103,7 +103,7 @@ spring.jpa.hibernate.ddl-auto=none
 
 ### system.properties
 ```
-java.runtime.version=17
+java.runtime.version= 21
 ```
 
 ### WebConfig
@@ -183,9 +183,3 @@ INSERT INTO tb_belonging (list_id, game_id, position) VALUES (2, 10, 4);
 
 
 
-## ⚙️ Configuração do Ambiente
-
-### **1. Clonar o repositório**
-```bash
-git clone https://github.com/teusxly/dslist-backend.git
-cd dslist-backend
