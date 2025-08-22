@@ -1,10 +1,10 @@
-## DsList - API de jogos
+##  API de jogos
 
 
-## Modelo de domínio DSList
+## Modelo de domínio 
  ![Modelo de domínio DSList](https://github.com/user-attachments/assets/21bd7473-5297-4aae-b300-dad219f79f3f)
  
-# 🎮 DSList Backend
+# 🎮  Backend
 
 ![Status](https://img.shields.io/badge/status-em%20desenvolvimento-blue)
 ![Java](https://img.shields.io/badge/Java-17-red)
@@ -190,6 +190,6 @@ INSERT INTO tb_belonging (list_id, game_id, position) VALUES (2, 9, 3);
 INSERT INTO tb_belonging (list_id, game_id, position) VALUES (2, 10, 4);
 ```
 
-# ![DSList - API de jogos](https://readme-typing-svg.herokuapp.com?font=JetBrains+Mono&size=35&duration=4000&pause=1000&color=00F700&center=true&vCenter=true&width=500&lines=🎮+DSList+Backend;API+REST+com+Spring+Boot;Gerencie+sua+lista+de+jogos)
+# ![API de jogos](https://readme-typing-svg.herokuapp.com?font=JetBrains+Mono&size=35&duration=4000&pause=1000&color=00F700&center=true&vCenter=true&width=500&lines=🎮+DSList+Backend;API+REST+com+Spring+Boot;Gerencie+sua+lista+de+jogos)
 
 
