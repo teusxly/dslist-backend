@@ -1,11 +1,15 @@
 ## DsList - API de jogos
 
-<br
+
 ## Modelo de domínio DSList
  ![Modelo de domínio DSList](https://github.com/user-attachments/assets/21bd7473-5297-4aae-b300-dad219f79f3f)
-<br>
+ 
+# 🎮 DSList Backend
 
-<br>
+![Status](https://img.shields.io/badge/status-em%20desenvolvimento-blue)
+![Java](https://img.shields.io/badge/Java-17-red)
+![Spring Boot](https://img.shields.io/badge/Spring%20Boot-3-green)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-15-blue)
 API REST desenvolvida em **Java** com **Spring Boot** para gerenciar uma lista de jogos.  
 O projeto faz parte de um estudo de desenvolvimento backend, abordando conceitos como arquitetura REST, camadas de serviço, acesso a banco de dados e boas práticas de código.
 
@@ -19,12 +23,7 @@ O projeto faz parte de um estudo de desenvolvimento backend, abordando conceitos
 - **Maven**
 
 
-# 🎮 DSList Backend
 
-![Status](https://img.shields.io/badge/status-em%20desenvolvimento-blue)
-![Java](https://img.shields.io/badge/Java-17-red)
-![Spring Boot](https://img.shields.io/badge/Spring%20Boot-3-green)
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-15-blue)
 
 ## 📂 Estrutura do Projeto
 
