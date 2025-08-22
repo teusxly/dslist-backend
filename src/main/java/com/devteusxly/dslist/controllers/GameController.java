@@ -11,7 +11,7 @@ import com.devteusxly.dslist.dto.GameListDTO;
 import com.devteusxly.dslist.services.GameListService;
 
 @RestController
-@RequestMapping(value = "/lists")
+@RequestMapping(value = "/games")
 public class GameController {
 	
 	@Autowired
