@@ -6,7 +6,7 @@ DSList - API de jogos
 <br>
 
 <br>
-API REST desenvolvida em **Java** com **Spring Boot** para gerenciar uma lista de jogos.  
+API REST desenvolvida em ***Java*** com ***Spring Boot*** para gerenciar uma lista de jogos.  
 O projeto faz parte de um estudo de desenvolvimento backend, abordando conceitos como arquitetura REST, camadas de serviço, acesso a banco de dados e boas práticas de código.
 
 ## 🚀 Tecnologias Utilizadas
@@ -20,20 +20,22 @@ O projeto faz parte de um estudo de desenvolvimento backend, abordando conceitos
 
 ## 📂 Estrutura do Projeto
 
+```text
 dslist-backend/
-├── ***src**/
-│ ├── ***main***/
-│ │ ├── java/com/devteusxly/dslist/
-│ │ │ ├── controllers/ # Controladores REST: recebem e tratam as requisições HTTP
-│ │ │ ├── dto/ # Data Transfer Objects: classes para transportar dados
-│ │ │ ├── entities/ # Entidades: representação das tabelas do banco de dados
-│ │ │ ├── repositories/ # Repositórios JPA: responsáveis pela comunicação com o banco
-│ │ │ ├── services/ # Camada de serviço: implementa as regras de negócio
-│ │ │ └── DslistApplication.java # Classe principal para iniciar o projeto Spring Boot
-│ │ └── resources/
-│ │ ├── application.properties # Configurações do Spring Boot e banco de dados
-│ │ └── data.sql # Script SQL para popular o banco de dados inicial
-└── pom.xml # Arquivo de configuração do Maven e dependências
+├── src/
+│   ├── main/
+│   │   ├── java/com/devteusxly/dslist/
+│   │   │   ├── controllers/            # Controladores REST: recebem e tratam as requisições HTTP
+│   │   │   ├── dto/                    # Data Transfer Objects: classes para transportar dados
+│   │   │   ├── entities/               # Entidades: representação das tabelas do banco de dados
+│   │   │   ├── repositories/           # Repositórios JPA: responsáveis pela comunicação com o banco
+│   │   │   ├── services/               # Camada de serviço: implementa as regras de negócio
+│   │   │   └── DslistApplication.java  # Classe principal para iniciar o projeto Spring Boot
+│   │   └── resources/
+│   │       ├── application.properties  # Configurações do Spring Boot e banco de dados
+│   │       └── data.sql                # Script SQL para popular o banco de dados inicial
+└── pom.xml                             # Arquivo de configuração do Maven e dependências
+
 
 ## Trechos de código
 
