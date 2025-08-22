@@ -1,4 +1,4 @@
-# ![DSList - API de jogos](https://readme-typing-svg.herokuapp.com?font=JetBrains+Mono&size=35&duration=4000&pause=1000&color=00F700&center=true&vCenter=true&width=500&lines=🎮+DSList+Backend;API+REST+com+Spring+Boot;Gerencie+sua+lista+de+jogos)
+## DsList - API de jogos
 
 <br
 ## Modelo de domínio DSList
@@ -16,7 +16,15 @@ O projeto faz parte de um estudo de desenvolvimento backend, abordando conceitos
 - **Spring Web**  
 - **Spring Data JPA**  
 - **PostgreSQL**  
-- **Maven** 
+- **Maven**
+
+
+# 🎮 DSList Backend
+
+![Status](https://img.shields.io/badge/status-em%20desenvolvimento-blue)
+![Java](https://img.shields.io/badge/Java-17-red)
+![Spring Boot](https://img.shields.io/badge/Spring%20Boot-3-green)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-15-blue)
 
 ## 📂 Estrutura do Projeto
 
@@ -183,6 +191,6 @@ INSERT INTO tb_belonging (list_id, game_id, position) VALUES (2, 9, 3);
 INSERT INTO tb_belonging (list_id, game_id, position) VALUES (2, 10, 4);
 ```
 
-
+# ![DSList - API de jogos](https://readme-typing-svg.herokuapp.com?font=JetBrains+Mono&size=35&duration=4000&pause=1000&color=00F700&center=true&vCenter=true&width=500&lines=🎮+DSList+Backend;API+REST+com+Spring+Boot;Gerencie+sua+lista+de+jogos)
 
 
