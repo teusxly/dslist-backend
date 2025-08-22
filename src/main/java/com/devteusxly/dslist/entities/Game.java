@@ -2,7 +2,7 @@ package com.devteusxly.dslist.entities;
 
 	import java.util.Objects;
 
-import jakarta.persistence.Column;
+	import jakarta.persistence.Column;
 	import jakarta.persistence.Entity;
 	import jakarta.persistence.GeneratedValue;
 	import jakarta.persistence.GenerationType;
@@ -10,7 +10,7 @@ import jakarta.persistence.Column;
 	import jakarta.persistence.Table;
 
 	@Entity
-	@Table(name = "td_game")
+	@Table(name = "tb_game")
 	public class Game {
 		@Id
 		@GeneratedValue(strategy = GenerationType.IDENTITY)
@@ -23,7 +23,9 @@ import jakarta.persistence.Column;
 		private String platforms; //plataformas
 		private Double score; // ponstuacao
 		private String imgUrl; // url da imagem
+		@Column(columnDefinition = "TEXT")
 		private String ShortDescription; // descricao resumida
+		@Column(columnDefinition = "TEXT")
 		private String longDescription; // descricao longa
 		
 		public Game() {
