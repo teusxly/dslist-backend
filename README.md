@@ -1,12 +1,12 @@
-DSList - API de jogos
+# ![DSList - API de jogos](https://readme-typing-svg.herokuapp.com?font=JetBrains+Mono&size=35&duration=4000&pause=1000&color=00F700&center=true&vCenter=true&width=500&lines=🎮+DSList+Backend;API+REST+com+Spring+Boot;Gerencie+sua+lista+de+jogos)
+
 <br
 ## Modelo de domínio DSList
  ![Modelo de domínio DSList](https://github.com/user-attachments/assets/21bd7473-5297-4aae-b300-dad219f79f3f)
- 
 <br>
 
 <br>
-API REST desenvolvida em ***Java*** com ***Spring Boot*** para gerenciar uma lista de jogos.  
+API REST desenvolvida em **Java** com **Spring Boot** para gerenciar uma lista de jogos.  
 O projeto faz parte de um estudo de desenvolvimento backend, abordando conceitos como arquitetura REST, camadas de serviço, acesso a banco de dados e boas práticas de código.
 
 ## 🚀 Tecnologias Utilizadas
@@ -36,6 +36,7 @@ dslist-backend/
 │   │       └── data.sql                # Script SQL para popular o banco de dados inicial
 └── pom.xml                             # Arquivo de configuração do Maven e dependências
 
+```
 
 ## Trechos de código
 
